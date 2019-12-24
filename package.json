@@ -1,0 +1,21 @@
+{
+  "name": "@feiben/fnpm",
+  "version": "1.0.0",
+  "description": "a tool for private npm",
+  "main": "./bin/fnpm",
+  "bin": {
+    "fnpm": "./bin/fnpm"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "feiben <fieben.dev@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "auto-correct": "^1.0.0",
+    "commander": "^4.0.1",
+    "cross-spawn": "^7.0.1",
+    "npm": "^6.13.4"
+  }
+}
